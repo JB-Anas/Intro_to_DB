@@ -1,7 +1,7 @@
--- Switch to the alx_book_store database
+-- switch to the alx_book_store database
 USE alx_book_store;
 
--- Retrieve the full description of the books table using INFORMATION_SCHEMA
+-- retrieve the full description of the books table from information_schema
 SELECT 
     COLUMN_NAME AS 'Field',
     COLUMN_TYPE AS 'Type',
