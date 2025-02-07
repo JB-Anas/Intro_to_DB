@@ -1,6 +1,6 @@
--- Use the target database
-USE alx_book_store;
+-- use the target database
+use alx_book_store;
 
--- Insert a single row into the CUSTOMERS table
-INSERT INTO customer (CUSTOMER_NAME, EMAIL, ADDRESS)  
-VALUES ('Cole Baidoo', 'cbaidoo@sandtech.com', '123 Happiness Ave.');
+-- insert a single row into the customers table
+insert into customers (customer_name, email, address)  
+values ('Cole Baidoo', 'cbaidoo@sandtech.com', '123 Happiness Ave.');
